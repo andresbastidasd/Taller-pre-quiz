@@ -19,3 +19,6 @@ print("Dimensión= ", matriz3D.ndim)
 
 matriz2D= matriz3D.reshape(10*15,800)
 
+def matriz_dataframe(matriz2D):
+    mdf= pd.DataFrame(matriz2D)
+    return mdf 
