@@ -13,3 +13,6 @@ print("Size: ", matriz4D.size)
 matriz4D_copia= matriz4D.copy()
 matriz3D= matriz4D_copia.reshape(10,15,20*400)
 
+print("Forma: ", matriz3D.shape)
+print("Size: ", matriz3D.size)
+print("Dimensión= ", matriz3D.ndim)
