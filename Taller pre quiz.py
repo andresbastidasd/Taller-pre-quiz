@@ -9,3 +9,7 @@ matriz4D= np.random.rand(dim1,dim2,dim3,dim4)
 
 print("Forma: ", matriz4D.shape)
 print("Size: ", matriz4D.size)
+
+matriz4D_copia= matriz4D.copy()
+matriz3D= matriz4D_copia.reshape(10,15,20*400)
+
